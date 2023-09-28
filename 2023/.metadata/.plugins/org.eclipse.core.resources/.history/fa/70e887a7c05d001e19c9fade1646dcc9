@@ -1,0 +1,9 @@
+package MedicamentoRepositorio;
+
+import modelo.Medicamento;
+
+public interface ImedicamentoRepositorio {
+
+	public interface lmedicamentoRepositorio extends JpaRepository<Medicamento, Integer>{
+}
+}
